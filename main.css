@@ -302,7 +302,6 @@ iframe {
   color: red;
   margin-top: 0px;
 }
-
 .topic_list_show {
   display: block;
   transition: 5s
@@ -646,17 +645,21 @@ iframe {
   /* margin-top: -459px;*/
    margin-top: 240px;
  display: block;
+ display: flex;
+ align-items: center;
 }
 .vid_navigator_back span {
   position: absolute;
-  margin-left: 10px;
-  margin-top: 8px;
+  margin-left: 8px;
+  margin-top: -20px;
   color: black;
   border-radius: 50%;
+  padding: 8px;
   
 }
 .vid_navigator_back span:hover {
-  background-color: #CFCFCF;
+  background-color: #D7D7D7D1;
+ 
 }
 
 
