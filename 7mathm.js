@@ -1,4 +1,4 @@
-let vid = document.getElementById("vid");
+/*let vid = document.getElementById("vid");
 let vidTitle = document.getElementById("vid-title");
 //starting first chapter
 function open_topic_list1() {
@@ -17,3 +17,4 @@ function chap_one_vid_three(){
    vid.src = "https://youtube.com/embed/BvvPOGeG5g0";
    vidTitle.innerHTML = 'Chapter-1.1(Part-3)'
 }
+*/

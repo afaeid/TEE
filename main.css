@@ -251,7 +251,7 @@ iframe {
   background-color: white;
   width: 360px;
   height: 600px;
-  overflow-y: auto;
+  overflow-x: auto;
   border-radius: 5px;
   border: 1px solid #E8E8E8;
   box-shadow: -1px 3px 20px 1px #E1E1E1;
@@ -419,7 +419,6 @@ padding-left: 20px;
       position:fixed;
       float: right;
       transition: 90ms;
-      overflow-x: hidden
 }
 
 .mobile_menu_content a {
@@ -435,8 +434,10 @@ padding-left: 20px;
       background-color: #DCDDD5
 }
 .visibility {
-     
-      display: block;
+      visibility: visible;
+      height: 100vh;
+      width: 80%;
+      transition: 90ms;
 }
 .mobile_menu_content .mobile_active_page {
      color: red;
@@ -556,7 +557,7 @@ iframe {
   margin-left: 0px;
   background-color: white;
   width: 360px;
-  height: 450px;
+  height: 100vh;
   overflow-x: auto;
   border-radius: 0px;
   border: 1px solid #E8E8E8;
@@ -585,10 +586,8 @@ iframe {
   transition: 90ms;
 }
 .all_topic_list {
- display: none;
+  display: none;
   margin-top: 10px;
-  transition: all 2s;
-  margin-bottom: 60px ;
 }
 
 .topic_list {

@@ -53,6 +53,3 @@ window.onclick = function(event) {
 function mobilemenu() {
    document.getElementById("content_of_mobile_menu").classList.toggle("visibility");
 }
-
-///jrjrjdjdj
-///hdjdj
