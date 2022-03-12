@@ -101,7 +101,7 @@
 }
 .show {
   visibility: visible;
-
+  box-shadow:0px 2px 10px 1px #9D9D9DC4;
 }
 #lang-list a {
       display: block;
@@ -399,6 +399,7 @@ padding-left: 20px;
 }
 .lang-lists  {
        display: none;
+       ;
 }
 .lang {
        display: none;
