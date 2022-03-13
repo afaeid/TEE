@@ -4,8 +4,8 @@
   
 }
 #preloader{
-  background: #fff url(gifs/loader.gif) no-repeat center;
-  background-size:25%;
+  background: #fff url(gifs/3rd_loader.gif) no-repeat center;
+  background-size:13%;
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -383,7 +383,7 @@ padding-left: 20px;
 @media only screen and (min-width: 330px) and (max-width: 390px) {
   /*head design*/
 #preloader{
-  background-size: 50%;
+  background-size: 30%;
 }
 .material-icons {
      cursor: pointer;
