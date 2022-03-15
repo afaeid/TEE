@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Hind+Siliguri:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -362,6 +363,8 @@ padding-left: 20px;
   /*display: flex;
   align-items: center;
   justify-content: center;*/
+  position: relative;
+  display: inline-block;
 }
 .select_cover{
   background: linear-gradient(#373737,#505050);
@@ -407,9 +410,24 @@ padding-left: 20px;
   color: #fff;
   text-decoration:none;
 }
-
-
-
+.photoes{
+/*  background: green;*/
+  width: 30%;
+  height: 800px;
+  position: absolute;
+  display: inline-block;
+}
+.photoes a {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 48px;
+ /* font-family: 'Fredoka', sans-serif*/;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #fff;
+  text-align: center;
+  
+}
 
 
 
