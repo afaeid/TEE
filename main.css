@@ -23,7 +23,8 @@
  /*background-color: #EEEEEE;*/
   background-color: #F3F3F3;
   width: 100%;
-  height: 700px;
+  min-height: 700px;
+  max-height: 900px;
   z-index: 999px;
 }
 /* Designing head of the page .*/
@@ -265,7 +266,7 @@ iframe {
   margin-left: 600px;
   background-color: white;
   width: 360px;
-  height: 600px;
+  height: 560px;
   overflow-x: auto;
   border-radius: 5px;
   border: 1px solid #E8E8E8;
@@ -347,7 +348,17 @@ padding-left: 20px;
   background-color: #42445A;
   color: white;
 }
-
+.cover{
+  width: 100%;
+  min-height: 800px;
+  max-height: 900px;
+  background: linear-gradient(40deg,#42445A,#B0B0B0)
+}
+.class_select_cover{
+  width: 70%;
+  height: 800px;
+  background: 
+}
 
 
 
@@ -488,7 +499,7 @@ padding-left: 20px;
 }
 .all_subjects {
      margin-top: -10px;
-     margin-bottom: 40px;
+     
      border-bottom: 40px solid #42445A
 }
 .class_subjects {
