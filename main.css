@@ -372,28 +372,32 @@ padding-left: 20px;
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-  margin-left: 40px;
+  margin-left: 60px;
   position: absolute;
+  color: white;
+  font-weight:bolder;
 }
 .main_classes{
   width: 300px;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);;
   margin: 50px;
   padding: 15px 20px;
   font-size: 30px;
   border-radius: 5px;
   font-family: 'Baloo Da 2', cursive;
   text-align: center;
+  backdrop-filter: blur(4px) saturate(180%);
   
 }
 .confirm_select{
    min-width: 60px;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);;
  /* margin: 50px;*/
   padding: 15px 20px;
   font-size: 30px;
   border-radius: 10px;
  font-family: 'Baloo Da 2', cursive;
+  backdrop-filter: blur(4px) saturate(180%);
 }
 
 
