@@ -389,6 +389,10 @@ padding-left: 20px;
   backdrop-filter: blur(4px) saturate(180%);
   
 }
+.main_classes i {
+  margin-top: -12px;
+  position: absolute;
+}
 .confirm_select{
    min-width: 60px;
   background: rgba(255, 255, 255, 0.2);;
