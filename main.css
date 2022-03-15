@@ -399,7 +399,10 @@ padding-left: 20px;
  font-family: 'Baloo Da 2', cursive;
   backdrop-filter: blur(4px) saturate(180%);
 }
-
+.confirm_select a {
+  color: #fff;
+  text-decoration:none;
+}
 
 
 
