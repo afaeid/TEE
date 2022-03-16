@@ -4,6 +4,9 @@
   padding: 0;
   
 }
+::selection{
+  background: #FF5D25;
+}
 #preloader{
   background: #fff url(gifs/3rd_loader.gif) no-repeat center;
   background-size:8%;
@@ -455,9 +458,8 @@ padding-left: 20px;
   z-index: 5000;
 }
 .sub_main_classes{
-   width: 350px;
+   width: 340px;
   background: rgba(255, 255, 255, 0.2);
-  margin: 270px 0 0 -205px;
  /* padding: 15px 20px;*/
   font-size: 30px;
   border-radius: 5px;
@@ -465,6 +467,8 @@ padding-left: 20px;
   text-align: center;
   backdrop-filter: blur(4px) saturate(180%);
   position: absolute;
+  margin-top: 345px;
+  margin-left: -160px;
 }
 .sub_main_classes a,li {
   color: #fff;
@@ -472,9 +476,11 @@ padding-left: 20px;
 }
 .sub_main_classes li {
   list-style: none;
+  border-bottom: 1px solid #CECECE;
 }
-
-
+.sub_main_classes li:last-child{
+  border-bottom:none;
+}
 
 
 
