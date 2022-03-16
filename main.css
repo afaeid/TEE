@@ -650,44 +650,6 @@ padding-left: 20px;
 .class_subjects a {
    margin-top: 42px;
 }
-/*#subject_en2 {
-    margin-left:3px;
-}
-#subject_en1 {
-    margin-left: 15px;
-}
-.class_subjects img {
-  /*   border: 1px solid #000000;*/
-   /*  border-radius: 50%;
-     position: absolute;
-     width: 55px;
-     height: 55px;
-     margin: 10px 0px;
-     margin-left: 12%;
-     z-index: 2;
-}
-.subject_name  {
-     text-align: center;
-     color: black;
-     font-size: 16px;
-    /* position: absolute;*/
-   /*  margin-left: 14px;*/
-   /*  margin-top: 75px;
-     text-decoration: none;
-     font-family: 'Baloo Da 2', cursive;
-     font-weight: normal;
-     z-index: 2;
-}
-.subjects {
-  /*   background-color: blue;*/
-  /*   margin: 0 auto;
-     display: inline;
-     margin-left: 14px;
-     z-index: 2;
-}
-*/
-
-
 iframe {
  /* align-items: center;*/
   border: 1px solid black;
