@@ -444,6 +444,41 @@ padding-left: 20px;
 .second_photo{
   margin-top: 480px;
 }
+.vid_loader{
+  background: url(../../../../gifs/vid_loader.gif) center no-repeat;
+  width:560px;
+  height: 315px;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 20px;
+  background-size: cover;
+  z-index: 5000;
+}
+.sub_main_classes{
+   width: 350px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 270px 0 0 -205px;
+ /* padding: 15px 20px;*/
+  font-size: 30px;
+  border-radius: 5px;
+  font-family: 'Baloo Da 2', cursive;
+  text-align: center;
+  backdrop-filter: blur(4px) saturate(180%);
+  position: absolute;
+}
+.sub_main_classes a,li {
+  color: #fff;
+  text-decoration: none;
+}
+.sub_main_classes li {
+  list-style: none;
+}
+
+
+
+
+
+
 
 
 
@@ -471,6 +506,13 @@ padding-left: 20px;
   /*head design*/
 #preloader{
   background-size: 30%;
+}
+.vid_loader{
+  width: 100%;
+  height: 200px;
+  margin-top:3px;
+  margin-left: 0;
+  position: absolute;
 }
 .material-icons {
      cursor: pointer;
