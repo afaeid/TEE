@@ -470,6 +470,8 @@ padding-left: 20px;
   margin-top: 342px;
   margin-left: -160px;
   padding: 0px 5px;
+  visibility:hidden;
+  transition: 0.5s;
 }
 .sub_main_classes a,li {
   color: #fff;
@@ -481,6 +483,10 @@ padding-left: 20px;
 }
 .sub_main_classes li:last-child{
   border-bottom:none;
+}
+.items_show{
+  visibility: visible;
+  transition: 0.5s;
 }
 
 
