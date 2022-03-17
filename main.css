@@ -448,7 +448,7 @@ padding-left: 20px;
   margin-top: 480px;
 }
 .vid_loader{
-  background: url(../../../../gifs/vid_loader.gif) center no-repeat;
+  background: url(gifs/vid_loader.gif) center no-repeat;
   width:560px;
   height: 315px;
   position: absolute;
