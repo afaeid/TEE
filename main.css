@@ -45,6 +45,7 @@
 }
 .logo {
     display: inline;
+    cursor: pointer;
 }
 .header  img {
      width: 180px;
@@ -393,7 +394,7 @@ padding-left: 20px;
   font-family: 'Baloo Da 2', cursive;
   text-align: center;
   backdrop-filter: blur(4px) saturate(180%);
-  
+  cursor: pointer;
 }
 .main_classes i {
   margin-top: -12px;
@@ -408,6 +409,7 @@ padding-left: 20px;
   border-radius: 10px;
  font-family: 'Baloo Da 2', cursive;
   backdrop-filter: blur(4px) saturate(180%);
+  cursor: pointer;
 }
 .confirm_select a {
   color: #fff;
@@ -429,6 +431,7 @@ padding-left: 20px;
   font-family: 'Hind Siliguri', sans-serif;
   color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 .photoes img{
   border-radius: 50%;
@@ -438,6 +441,7 @@ padding-left: 20px;
   display: inline;
  margin-left: 40px;
  /* margin-top: 500px;*/
+ cursor: alias;
 }
 .first_photo{
   margin-top: 200px;
@@ -472,6 +476,7 @@ padding-left: 20px;
   padding: 0px 5px;
   visibility:hidden;
   transition: 0.5s;
+  cursor: pointer;
 }
 .sub_main_classes a,li {
   color: #fff;
