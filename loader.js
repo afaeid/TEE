@@ -8,4 +8,4 @@
   document.getElementById('vid').addEventListener('load', function() {
    vidLoader.style.display = 'none';
       })
-console.log('load');
+// console.log('load');

@@ -6,6 +6,7 @@
 }
 ::selection{
   background: #FF5D25;
+  color: #fff;
 }
 #preloader{
   background: #fff url(gifs/3rd_loader.gif) no-repeat center;
