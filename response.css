@@ -271,6 +271,9 @@ iframe {
   background-color: #D7D7D7D1;
  
 }
+.footer{
+  display: none;
+}
 
 
 }
