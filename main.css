@@ -579,7 +579,7 @@ footer{
  margin-top: 20px;
  width: 400px;
  position: absolute;
- /* display: inline-table; */
+ display: inline-block;
  margin-left: 580px;
 }
 .fot-con h2{
