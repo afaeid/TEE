@@ -631,7 +631,8 @@ footer{
   transition: 0.5s;
 }
 .fot-social-media i:hover{
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  transform: translateY(-16px);
   box-shadow: 0 5px 5px #C0C0C0;
   /* position: absolute; */
 }
